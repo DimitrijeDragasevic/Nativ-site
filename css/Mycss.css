@@ -1,0 +1,509 @@
+body
+{
+  padding-left: 200px;
+  padding-right: 200px;
+  
+font-family: 'News Cycle', sans-serif;
+  opacity: 1;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  
+  color:grey;
+}
+
+.home-button
+{
+
+  float: left;
+  font-family: 'Lobster Two', cursive;
+
+}
+
+
+
+.container-first
+{
+  background-image: url("../images/gradsiv.jpg");
+  background-position:center;
+   background-repeat:no-repeat;
+  text-align: center;
+  position: relative;
+  height: 500px;
+  max-width: 100%;
+
+  color: black;
+}
+
+#header-title
+{
+
+  color:black ;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800px;
+  padding-top:10px;
+  font-family: 'Josefin Sans', sans-serif;
+  opacity: 0.7;
+}
+
+.sub-text
+{
+
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  display: block;
+  position: center;
+  margin-left: 160px;
+  margin-right: 160px;
+
+
+}
+
+.flex-container
+{
+  display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-color:white;
+    color:black;
+
+}
+.flex-item
+
+{
+  background-color:white;
+
+    width: 400px;
+    height: 400px;
+    
+
+}
+
+.caption
+{
+
+  text-align:center;
+  display: block;
+  padding-top:10px;
+  padding: 10px;
+font-weight: 700;
+opacity: 0.9;
+}
+
+.flex-item img
+{
+  position: center;
+ padding-top: 60px;
+  padding-left: 30%;
+  padding-bottom: 30px;
+
+
+
+
+}
+
+.flex-item :hover
+{
+
+
+
+}
+
+.container-second
+{
+position: relative;
+padding-top: 100px;
+background-color: white;
+width: 100%;
+height: 300px;
+
+color:black;
+font-weight: 400;
+}
+.flex-item p
+{
+
+padding: 13px;
+text-align: center;
+
+}
+
+
+
+.providno{
+
+  opacity: 0.3;
+  text-align: center;
+}
+.naslov
+{
+text-align: center;
+font-weight: 100;
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 160%;
+opacity: 0.9;
+display: block;
+
+
+}
+
+.paragraf 
+{
+  padding-top: 30px;
+text-align: center;
+  display: block;
+  font-size: 125%;
+  padding-bottom: 40px;
+}
+.prva-pozicija
+{
+
+color:black;
+padding-left: 10%;
+padding: 30px;
+display: inline-block;
+
+
+}
+.span
+{
+text-align: left;
+overflow:hidden;
+width: 75%;
+display: inline-block;
+
+}
+
+.border-prijavi {
+  
+    padding:10px;
+    border: 2px solid black;
+    margin: 0;
+    
+
+  }
+.border-prijavi-white
+{
+
+padding: 10px;
+border:2px solid white;
+margin: 0;
+
+}
+
+  .dugme-prijavi
+  {
+padding-top: 40px;
+    float: right;
+    
+    overflow:hidden;
+    
+    
+
+  }
+
+.border {
+
+     
+     padding-left: 10%;
+    padding:10px;
+    border: 2px solid black;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .tagovi
+  {
+
+padding-top: 20px;
+
+  }
+
+  .druga-pozicija
+  {
+
+
+text-align: left;
+color:white;
+padding-left: 10%;
+background-color: #222222;
+padding: 30px;
+ 
+
+  }
+  .dugme-ucitaj-sredina
+  {
+
+
+text-align: center;
+padding-top: 80px;    
+  }
+
+  .border-ucitaj-sredina
+  {
+border: 1px solid grey;
+    margin: 0;
+    background-color: lightgrey;
+    display: inline-block;
+padding: 10px;
+font-weight: 100;
+font-family: 'Josefin Sans', sans-serif;
+opacity: 0.6;
+
+  }
+ 
+
+  .border-white
+   {
+  padding-left: 10%;
+    padding:10px;
+    border: 1px  solid white;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .About-us
+  {
+text-align: center;
+color: black;
+background-color: #FBFBFB;
+height: 420px;
+padding:50px;
+
+  }
+
+.About-us p
+{
+padding-top: 90px;
+text-align: justify;
+padding-left: 15%;
+padding-right: 15%;
+
+
+}
+p.Two
+{
+
+padding-left: 15%;
+padding-right: 15%;
+padding-top: 30px;
+text-align: justify;
+}
+
+
+
+  .flex-container-two {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color:#222222;
+    color:white;
+
+}
+
+.flex-item-two {
+    background-color:#222222;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 60px;
+    
+    padding-left: 30px;
+
+}
+
+.flex-item-two ul
+{
+
+
+text-decoration:none;
+list-style-type:none;
+
+padding-left: 40px;
+
+}
+.pics
+{
+
+height: 250px;
+width: 160px;
+padding-left: 60px;
+
+}
+.tw-fb
+{
+text-align: center;
+height: 150px;
+padding-top: 35px;
+padding-bottom: 25px;
+
+}
+.tw-fb p
+{
+opacity: 0.3;
+
+}
+.in-tw-web
+{
+
+width: 100%;
+height: 80px;
+background-color:black;
+color: #305957;
+font-size: 70%;
+
+}
+.in-tw-web-pics
+{
+
+float: right;
+padding-top: 20px;
+
+padding-right: 20px;
+}
+.text-copy
+{
+
+padding-top: 35px;
+padding-left: 15px;
+
+
+
+}
+
+
+
+/*media qurys */
+
+@media screen and ( max-device-width:480px){
+
+body
+{
+  
+padding:0;
+font-size:160%;
+
+}
+
+
+.header-subtext
+{
+text-align:center;
+
+width:100%;
+
+}
+
+
+.flex-container
+{
+height:1200px;
+-webkit-flex-direction: column;
+    flex-direction: column;
+width:100%;
+text-align:center;
+
+}
+.flex-item
+{
+
+width:100%;
+text-align:center;  
+
+}
+.pics
+{
+  padding-left:300px;
+
+}
+.container-second
+{
+
+padding-bottom:130px;  
+}
+.About-us
+{
+
+padding-bottom:450px;
+
+}
+.flex-container-two
+{
+height:1000px;
+-webkit-flex-direction: column;
+    flex-direction: column;
+width:100%;
+
+
+
+}
+.flex-item-two
+{
+
+
+padding-left:250px;
+padding-bottom:150px;
+}
+
+}
+
+
+
+
+@media screen and (max-device-width:1030px){
+
+
+ body
+ {
+padding:0;
+max-width:100%;
+
+ }.pics img{
+
+display:block;
+margin-left:auto;
+margin-right:auto;
+
+position:center;
+padding-left:10px;
+
+
+
+ }
+ .flex-container
+ {
+
+   width:100%;
+
+
+ }
